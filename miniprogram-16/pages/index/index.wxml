@@ -1,0 +1,10 @@
+<!--pages/kj/RandomSum/index.wxml-->
+<view class="box">
+  <view class='title'>彩票生成器</view>
+  <view>中奖彩票的号码为：</view>
+  <view wx:for="{{rand}}">{{item}}</view>
+  <button type='primary' bindtap='newRand'>更新</button>
+  <view class='boxModel04'>
+电科 19-1-李庆晨-201923010113
+</view>
+</view>
